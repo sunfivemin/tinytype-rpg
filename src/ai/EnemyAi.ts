@@ -22,8 +22,10 @@ export class EnemyAI {
       msg += `${this.enemy.name}가 ${healed}의 HP를 회복했습니다.`;
     } else {
       // 평타
-      const damage = this.player.takeDamage(this.enemy.attack);
-      msg += `${this.player.name}가 ${damage}의 데미지를 받았습니다.`;
+      // const damage = this.player.takeDamage(this.enemy.attack);
+      // Enemy의 평타 or 특수공격 포함 (Enemy.ts에서 확률로 처리)
+      const msgPart = this.enemy.attackPlayer(this.player);
+      msg += msgPart;
     }
 
     return msg;
