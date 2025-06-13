@@ -72,10 +72,5 @@ npm run dev     # 개발 서버 실행
 
 ## 🔗 더 자세한 내용은?
 
-이 프로젝트의 초기 세팅은 [sunfivemin/tinytype-rpg](https://github.com/sunfivemin/tinytype-rpg) 저장소에서 시작되었으며,
-본격적인 기능 구현과 시스템 개발은 [tslearners/typeScriptStudy](https://github.com/chan8919/typeScriptStudy) 레포지토리에서 이어졌습니다.
-
-👉 초기 저장소: [https://github.com/sunfivemin/tinytype-rpg](https://github.com/sunfivemin/tinytype-rpg)  
-👉 전체 구현: [https://github.com/chan8919/typeScriptStudy](https://github.com/chan8919/typeScriptStudy)
-
+이 프로젝트의 초기 세팅은 [sunfivemin/tinytype-rpg](https://github.com/sunfivemin/tinytype-rpg) 저장소에서 시작되었으며, 본격적인 기능 구현과 시스템 개발은 [tslearners/typeScriptStudy](https://github.com/chan8919/typeScriptStudy) 레포지토리에서 이어졌습니다.
 
